@@ -2,24 +2,40 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom"
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <Router>
+        <div>
+          <Header />
+          <Navigation handleLogout={handleLogout} />
+          <Routes>
+            <Route exact path="/login"  render={(props) => (<LoginForm />)} element={<LoginForm handleLogin={handleLogin} />} />
+
+            <Route exact path="/" element={<MainContent />} />
+            <Route exact path="/ProductModel" element={<ProductModelList />} />
+            <Route exact path="/ProductModel/details/:IDproduct" element={< ProductModelDetails />  } />
+            <Route exact path="/ProductModel/add" element={< ProductModelForm />  } />
+            <Route exact path="/ProductModel/edit/:IDproduct" element={< ProductModelForm />  } />
+
+            <Route exact path="/Order" element={<OrderList />} />
+            <Route exact path="/Order/add" element={<OrderForm />} />
+            <Route exact path="/Order/edit/:IDorder" element={<OrderForm />} />
+            <Route exact path="/Order/details/:IDorder" element={<OrderDetails />} />
+
+            <Route exact path="/OrderedProducts" element={<OrderedProductsList />} />
+            <Route exact path="/OrderedProducts/add" element={<OrderedProductsForm />} />
+            <Route exact path="/OrderedProducts/edit/:IDordered" element={<OrderedProductsForm />} />
+            <Route exact path="/OrderedProducts/details/:IDordered" element={< OrderedProductsDetails />  } />
+          </Routes>
+          <Footer />
+        </div>
+      </Router>
   );
 }
 
