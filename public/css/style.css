@@ -12,7 +12,6 @@ body {
 }
 
 header,
-main,
 footer {
     background-color: #484848;
 }
@@ -108,9 +107,29 @@ footer {
 
 /* 5. RECORD LIST */
 /* 5.2 Header of content section */
+main {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1200px;
+    height: 500px;
+}
+
+main h1,
 main h2 {
-    border-bottom: 1px solid #7f8c8d;
-    margin-bottom: 2rem;
+    color: #c2c2c2;
+}
+
+main h1 {
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+    padding: 10px;
 }
 
 /* 5.3 Table */

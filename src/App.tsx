@@ -15,7 +15,7 @@ function App() {
         <div>
           <Navigation  />
           <Routes>
-            <Route path="/" element={<MainContent />} />
+            <Route path="/About" element={<MainContent />} />
           </Routes>
           <Footer />
         </div>
