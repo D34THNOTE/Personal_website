@@ -118,6 +118,41 @@ main {
     height: 500px;
 }
 
+.description {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 70vw;
+    height: 40vw;
+    text-align: center;
+
+    color: #c2c2c2;
+}
+
+.gap {
+    padding-top: 30px;
+    white-space: pre-line
+}
+
+.pElement {
+    color: #c2c2c2;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.github{
+    margin: 0 1rem;
+    transition: transform 250ms;
+}
+
+.iconActive a:hover{
+    color:lightblue;
+}
+
 main h1,
 main h2 {
     color: #c2c2c2;
