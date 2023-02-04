@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
+    "file-loader": "^6.2.0",
     "laravel-mix": "^6.0.49"
   }
 }
