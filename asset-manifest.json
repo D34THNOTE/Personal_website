@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/https://d34thnote.github.io/Personal_website/about/static/css/main.073c9b0a.css",
-    "main.js": "/https://d34thnote.github.io/Personal_website/about/static/js/main.0dd698f1.js",
-    "static/js/787.28cb0dcd.chunk.js": "/https://d34thnote.github.io/Personal_website/about/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/https://d34thnote.github.io/Personal_website/about/index.html",
-    "main.073c9b0a.css.map": "/https://d34thnote.github.io/Personal_website/about/static/css/main.073c9b0a.css.map",
-    "main.0dd698f1.js.map": "/https://d34thnote.github.io/Personal_website/about/static/js/main.0dd698f1.js.map",
-    "787.28cb0dcd.chunk.js.map": "/https://d34thnote.github.io/Personal_website/about/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "./static/css/main.073c9b0a.css",
+    "main.js": "./static/js/main.267235f8.js",
+    "static/js/787.28cb0dcd.chunk.js": "./static/js/787.28cb0dcd.chunk.js",
+    "index.html": "./index.html",
+    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
+    "main.267235f8.js.map": "./static/js/main.267235f8.js.map",
+    "787.28cb0dcd.chunk.js.map": "./static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.0dd698f1.js"
+    "static/js/main.267235f8.js"
   ]
 }
