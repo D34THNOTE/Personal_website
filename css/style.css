@@ -102,13 +102,9 @@ main {
 /* 5.2 Header of content section */
 main {
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 70vw;
-    height: 40vw;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 img {
@@ -130,15 +126,9 @@ img {
 
 .description {
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 70em;
-    height: 46em;
-    /*margin-top: 7em;*/
-    /*margin-left: 7em;*/
-    /*margin-right: 7em;*/
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
 
     color: #c2c2c2;
@@ -229,39 +219,6 @@ section so that we don't have to re-write every style definition for mobile sepa
         display: block;
     }
 
-    main {
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
-
-
-    h1 {
-        display: block;
-    }
-
-    .lastH2 {
-        display: inline-block;
-        margin-bottom: 20vw;
-    }
-
-    .description {
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin-top: 7em;
-        margin-left: 7em;
-        margin-right: 7em;
-        text-align: center;
-
-        color: #c2c2c2;
-    }
 }
 
 @media all and (max-width: 414px) { /* smartphones */
@@ -294,24 +251,5 @@ section so that we don't have to re-write every style definition for mobile sepa
         margin: 0rem; 
     }
 
-    main {
-        position: absolute;
-        top:0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 0;
-        width: 0;
-        margin: auto;
-    }
 
-    h1 {
-        display: block;
-        margin-top: 4em;
-    }
-
-    .lastH2 {
-        display: inline-block;
-        margin-bottom: 20vw;
-    }
 }
