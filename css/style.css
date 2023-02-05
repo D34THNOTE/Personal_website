@@ -102,9 +102,10 @@ main {
 /* 5.2 Header of content section */
 main {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
 
 img {
@@ -126,9 +127,10 @@ img {
 
 .description {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
     text-align: center;
 
     color: #c2c2c2;
