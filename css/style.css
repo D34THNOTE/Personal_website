@@ -142,6 +142,11 @@ img {
     color: #c2c2c2;
 }
 
+.lastH2 {
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
 .gap {
     padding-top: 30px;
     white-space: pre-line
@@ -222,6 +227,10 @@ section so that we don't have to re-write every style definition for mobile sepa
         display: block;
     }
 
+    h1 {
+        display: block;
+        margin-top: 40vw;
+    }
 }
 
 @media all and (max-width: 414px) { /* smartphones */
