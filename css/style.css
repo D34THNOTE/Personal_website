@@ -153,6 +153,13 @@ img {
     font-size: 21px;
 }
 
+.contactTransformation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .github{
     margin: 0 1rem;
     transition: transform 250ms;
