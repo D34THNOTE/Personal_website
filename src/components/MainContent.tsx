@@ -13,7 +13,7 @@ function MainContent() {
                 where I study to this day
             </h2>
 
-            <h2>
+            <h2 className="lastH2">
                 Feel free to learn more about my achievements and abilities by checking out the "Skills and projects" section,
                 or visiting my Github profile, available there as well!
             </h2>

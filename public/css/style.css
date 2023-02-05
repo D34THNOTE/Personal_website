@@ -102,13 +102,10 @@ main {
 /* 5.2 Header of content section */
 main {
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 70vw;
-    height: 40vw;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
 }
 
 img {
@@ -125,21 +122,23 @@ img {
 }
 
 .lastImg {
-    margin-bottom: 4vw;
+    margin-bottom: 3em;
 }
 
 .description {
     position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    width: 70vw;
-    height: 40vw;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 30px;
+    margin-inline-end: 30px;
     text-align: center;
 
     color: #c2c2c2;
+}
+
+.lastH2 {
+    display: inline-block;
+    margin-bottom: 50px;
 }
 
 .gap {
@@ -152,6 +151,13 @@ img {
     padding-top: 50px;
     text-align: center;
     font-size: 21px;
+}
+
+.contactTransformation {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .github{
@@ -253,5 +259,6 @@ section so that we don't have to re-write every style definition for mobile sepa
     .list-actions-button-delete {
         margin: 0rem; 
     }
+
 
 }

@@ -28,7 +28,7 @@ function MainContent() {
                     <FontAwesomeIcon icon={faGithub} size="3x" />
                 </a>
             </div>
-            <img src="/images/TINss.png" className="bigImg" />
+            <img src="/Personal_website/images/TINss.png" className="bigImg" />
 
             <p className="pElement">
                 Another project of mine that I am happy to share is my recreation of the bottom screen of a very old-school Donkey Kong game,
@@ -40,7 +40,7 @@ function MainContent() {
                     <FontAwesomeIcon icon={faGithub} size="3x" />
                 </a>
             </div>
-            <img src="/images/DKss.png" className="lastImg" />
+            <img src="/Personal_website/images/DKss.png" className="lastImg" />
         </div>
 )
 }
