@@ -20,7 +20,7 @@ function MainContent() {
             <p className="pElement">
                 The project I am currently most proud of is my simple application where users can log in and view/add/edit records to a couple of different tables,
                 these changes will affect what other tables display and what options are available when, for example, adding a new "OrderedProduct" record.
-                The application was made with React.js on the front-end making API calls to my Node.js Express backend which utilizes MySQL and MongoDB databases.
+                The application was made with React.js on the front-end making API calls to my Node.js Express backend which utilizes a MySQL database.
                 Available on Github here:
             </p>
             <div className="iconActive">
