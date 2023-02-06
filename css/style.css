@@ -260,9 +260,10 @@ section so that we don't have to re-write every style definition for mobile sepa
         margin: 0rem; 
     }
 
-    a {
+    nav a {
         font-size: 1.5em;
     }
+
 
 
 }
