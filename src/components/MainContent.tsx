@@ -10,7 +10,7 @@ function MainContent() {
 
             <h2>
                 I have started my journey at the Polish-Japanese Academy of Information Technology during the winter semester of 2020/21
-                where I study to this day
+                where I still study to this day
             </h2>
 
             <h2 className="lastH2">
