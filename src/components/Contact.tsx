@@ -9,7 +9,7 @@ function MainContent() {
     return (
         <main className="contactTransformation">
             <h2>
-                My e-mail address: detnotatka@gmail.com
+                My e-mail address: bartoszjanowskics@gmail.com
             </h2>
             <h2>
                 You can also reach me on Discord and check out my Github profile!
