@@ -8,13 +8,13 @@ function MainContent() {
     return (
         <div className="description">
             <h2 className="gap">
-                Main Languages: Java, Javascript and Typescript
+                Main Languages: Java, Javascript and Typescript, C#
             </h2>
             <h2>
                 Libraries/Frameworks: React.js, Node.js based on Express.js and Next.js
             </h2>
             <h2>
-                Databases: SQL-based databases, most experienced with MySQL
+                Databases: SQL-based databases, most experienced with MSSQL and PostgreSQL
             </h2>
 
             <p className="pElement">
